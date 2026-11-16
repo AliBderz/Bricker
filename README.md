@@ -20,6 +20,8 @@ effects at once without any class knowing about the others.
 Every decorator implements the same `CollisionStrategy` interface and delegates to the one it
 wraps, so effects stack (Strategy + Decorator patterns).
 
+See [DESIGN.md](DESIGN.md) for the design rationale written for the course.
+
 ## Other pieces
 
 - `BrickerGameManager` — window, walls, paddle, ball, brick grid, lives, win/lose + restart
